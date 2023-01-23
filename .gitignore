@@ -1,3 +1,6 @@
-output\
-test\*.key
+output/
+test/*.key
 *.key
+/output/
+.idea/
+*.iml
