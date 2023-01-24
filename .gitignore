@@ -1,8 +1,11 @@
 output/
 test/*.key
+test/*.pdf
+test/*.sign
 *.key
 /output/
 .idea/
 *.iml
 /test.pdf
 /bin/*
+
