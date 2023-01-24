@@ -4,3 +4,5 @@ test/*.key
 /output/
 .idea/
 *.iml
+/test.pdf
+/bin/*

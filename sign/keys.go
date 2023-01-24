@@ -75,3 +75,13 @@ func (p *PdfSigner) DecodePEMKeys(aKeyPEM []byte, keyType string) ([]byte, error
 		return block.Bytes, nil
 	}
 }
+
+// ReadSignature to read the signature from file
+func (p *PdfSigner) ReadSignature(filePath string) error {
+	var err error
+	p.Signature, err = os.ReadFile(filePath)
+	if err != nil {
+		return err
+	}
+	return nil
+}
